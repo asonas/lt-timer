@@ -53,3 +53,62 @@ h1 {
     -webkit-transform: scale(1);
   }
 }
+
+#timmer {
+  position: absolute;
+  top: 0;
+  left: 0
+  width: 400px;
+  text-align: left;
+  font-family: Overlock;
+  font-size: 400px;
+  color: #333;
+}
+
+#timeline {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 350px;
+  text-align: left;
+}
+
+.clear {
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+}
+
+.start {
+  position: absolute;
+  bottom: 0;
+  left: 0
+}
+
+.tweet {
+  margin: 0;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #bbb;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+.tweet p {
+}
+
+.tweet .screen_name a {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 70%;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#222));
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
